@@ -1,0 +1,24 @@
+{
+  "name": "henrique013/tdd",
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "authors": [
+    {
+      "name": "Henrique Alves",
+      "email": "henrique013.a@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Corollarium\\": [
+        "src/Corollarium",
+        "tests/Corollarium"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
